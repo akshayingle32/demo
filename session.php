@@ -9,6 +9,8 @@
 	
    $msg = "You have visited this page ".  $_SESSION['counter'];
    $msg .= "in this session.";
+
+    session_destroy();
 ?>
 
 <html>

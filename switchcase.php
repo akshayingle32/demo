@@ -30,7 +30,7 @@
                break;
             
             case "Sun":
-               echo "Today is Sunday";
+               echo "Today is Sunday1111";
                break;
             
             default:
