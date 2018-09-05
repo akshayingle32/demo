@@ -8,7 +8,7 @@
       function setPrice($par){
          $this->price = $par;
       }
-      
+      echo "ok";
       function getPrice(){
          echo $this->price ."<br/>";
       }
