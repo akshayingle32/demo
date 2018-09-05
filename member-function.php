@@ -22,6 +22,7 @@ $Xiaomi = new Mobile();
 $Iphone = new Mobile();
 $Samsung->setName( "SamsungS8" );
 $Xiaomi->setName( "MI4" );
+$Iphone->setName( "Iphone7s" );
 $Samsung->setPrice( 90000 );
 $Iphone->setPrice( 65000 );
 $Xiaomi->setPrice( 15000 );

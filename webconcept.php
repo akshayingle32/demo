@@ -2,6 +2,14 @@
    <body>
    
       <?php
+      echo "<br><br>";
+      var_dump($_SERVER);
+      echo "<br><br>";
+      echo "<br><br>";
+      echo "<br><br>";
+      echo "<br><br>";
+
+    //   echo "step1";
          function getBrowser() { 
             $u_agent = $_SERVER['HTTP_USER_AGENT']; 
             $bname = 'Unknown';
@@ -42,10 +50,9 @@
             $known = array('Version', $ub, 'other');
             $pattern = '#(?<browser>' . join('|', $known) . ')[/ ]+(?<version>[0-9.|a-zA-Z.]*)#';
             
-            if (!preg_match_all($pattern, $
-
-   // we have no matching number just continue
-            }
+            if (!preg_match_all($pattern, $u_agent, $matches)) {
+                // we have no matching number just continue
+             }
             
             // see how many we have
             $i = count($matches['browser']);

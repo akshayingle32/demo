@@ -1,24 +1,14 @@
 <?php
-   class Books {
-      /* Member variables */
-      var $price;
-      var $title;
-      
-      /* Member functions */
-      function setPrice($par){
-         $this->price = $par;
-      }
-      
-      function getPrice(){
-         echo $this->price ."<br/>";
-      }
-      
-      function setTitle($par){
-         $this->title = $par;
-      }
-      
-      function getTitle(){
-         echo $this->title ." <br/>";
-      }
-   }
+class Car{
+  public function name(){
+  echo "Books for refference";
+  }
+  public function price(){
+  echo "rs 900";
+  }
+}
+//To create php object we have to use a  new operator. Here php object is the object of the Books Class. 
+$obj = new Books();
+$obj->name();
+$obj->price();
 ?>
