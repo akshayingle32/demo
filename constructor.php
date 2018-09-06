@@ -5,16 +5,19 @@ class Animal
     
     public function __construct($name)
     {
+        echo "opk";
         $this->$name = $name;
+
+
        
     }
 
    public function __destruct()
     {
         echo "I'm dead now :";
-    }
-}
-
-$animal = new Animal("ppppppppp");
+    }//end destructor
+}//end class 
+//$name2 = "Kadam";
+$animal = new Animal("nitin");
 echo  $animal->$name;
 ?>
