@@ -1,4 +1,5 @@
 <?php
+   echo "ok";
    class Singleton {
       public static function getInstance() {
          static $instance = null;
