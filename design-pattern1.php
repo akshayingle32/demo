@@ -27,4 +27,5 @@
    $anotherObj = SingletonChild::getInstance();
    var_dump($anotherObj === Singleton::getInstance());
    var_dump($anotherObj === SingletonChild::getInstance()); 
+
 ?>
